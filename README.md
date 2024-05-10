@@ -1,4 +1,4 @@
-# Technical test Banco Bogota
+# Technical Test Banco Bogota
 
 ## Backend Spring boot
 
