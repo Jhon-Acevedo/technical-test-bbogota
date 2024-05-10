@@ -1,0 +1,16 @@
+server:
+  port: 8090
+
+spring:
+  datasource:
+    driverClassName: org.h2.Driver
+    username: test
+    password: test
+  jackson:
+    time-zone: America/Bogota
+
+springdoc:
+  swagger-ui:
+    path: /
+  api-docs:
+    path: /user/v3/api-docs
