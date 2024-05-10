@@ -1,0 +1,33 @@
+<div>
+  <nav class="navbar navbar-expand navbar-dark bg-dark">
+    <a href="#" class="navbar-brand">Home</a>
+  </nav>
+
+  <div *ngIf="user" class="container py-5 h-100 vh-100">
+    <h2>Información Básica</h2>
+    <div>
+      <label>Primer Apellido: </label>
+      <input
+        type="text"
+        class="form-control"
+        [(ngModel)]="user.firstLastName"
+        disabled
+      >
+
+    </div>
+    <div>
+      <label>Primer nombre:</label>
+      <input
+        type="text"
+        class="form-control mb-4"
+        [(ngModel)]="user.firstName"
+        disabled>
+    </div>
+
+    <div class="text-center">
+      <a href="#" class="btn btn-primary btn-lg btn-block">Volver a buscar</a>
+    </div>
+
+  </div>
+
+</div>
